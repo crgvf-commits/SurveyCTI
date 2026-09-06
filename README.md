@@ -26,6 +26,9 @@ All bibliographic metadata in this package was taken from the manuscript bibliog
 | File | Purpose |
 |---|---|
 | `included_studies.csv` | Master list of the 172 included primary studies, with bibliographic metadata and the traceability group/cluster listed in the manuscript. |
+| `included_studies.bib` | Complete BibTeX bibliography of the 172 included primary studies (`r1`--`r172`). |
+| `paper_references_full.csv` | Complete machine-readable list of all 178 references in the manuscript, marking the 172 primary studies and the six methodological/supporting references. |
+| `paper_references_full.bib` | Complete BibTeX bibliography of all 178 manuscript references (`r1`--`r178`). |
 | `cluster_assignments.csv` | Compact study-to-group/cluster mapping for analysis or filtering. |
 | `cluster_summary.csv` | The 20-cluster solution landscape and the number of studies assigned to each cluster. |
 | `evidence_rubric.csv` | E0–E5 and NR evidence definitions, typical evidence, and exclusion conditions. |
