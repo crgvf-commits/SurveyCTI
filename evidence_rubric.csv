@@ -1,0 +1,8 @@
+Level,Definition,Typical_Evidence,What_Does_Not_Count
+E0,No evaluation,Conceptual proposal or architecture without testing,Claims without data
+E1,Minimal evidence,Informal validation or expert opinion without a defined method,"“Potential,” “could,” or “promises”"
+E2,Controlled evaluation,"Proof of concept, experiment, or simulation with metrics",Real-world use with no description or no metric
+E3,Applied evaluation,Case study or pilot in a representative context,Purely synthetic tests with no contextual justification
+E4,Interorganizational operational evidence,Multiple organizations or real arrangement with reported results,Internal pilot without actual sharing
+E5,Robust longitudinal or scale evidence,Real-load metrics and/or longitudinal use with solid scalability analysis,Benchmarks without described conditions
+NR,Not reported,No verifiable textual basis in the primary study,—

@@ -1,0 +1,173 @@
+BibTeX_Key,Reference_Number,Group,Group_Label,Cluster,Cluster_Label
+r1,1,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r2,2,G2,Technical artifacts,T2,Operational sharing and dissemination
+r3,3,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r4,4,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r5,5,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r6,6,G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies
+r7,7,G3,Interoperability,I1,Standardized CTI models and formats
+r8,8,G2,Technical artifacts,T3,Ingestion and normalization
+r9,9,G3,Interoperability,I4,Ecosystem-oriented interoperability
+r10,10,G2,Technical artifacts,T6,Operational consumption and integration
+r11,11,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r12,12,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r13,13,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r14,14,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r15,15,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r16,16,G2,Technical artifacts,T7,Technical protection controls in sharing
+r17,17,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r18,18,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r19,19,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r20,20,G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies
+r21,21,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r22,22,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r23,23,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r24,24,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r25,25,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r26,26,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r27,27,G4,Representation and semantics,S2,Semantic entity and relation models
+r28,28,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r29,29,G2,Technical artifacts,T2,Operational sharing and dissemination
+r30,30,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r31,31,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r32,32,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r33,33,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r34,34,G2,Technical artifacts,T6,Operational consumption and integration
+r35,35,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r36,36,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r37,37,G1,Conceptual artifacts,C1,Governance and ecosystem coordination
+r38,38,G4,Representation and semantics,S2,Semantic entity and relation models
+r39,39,G2,Technical artifacts,T2,Operational sharing and dissemination
+r40,40,G3,Interoperability,I2,Protocols and transport mechanisms
+r41,41,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r42,42,G3,Interoperability,I1,Standardized CTI models and formats
+r43,43,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r44,44,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r45,45,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r46,46,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r47,47,G2,Technical artifacts,T3,Ingestion and normalization
+r48,48,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r49,49,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r50,50,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r51,51,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r52,52,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r53,53,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r54,54,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r55,55,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r56,56,G2,Technical artifacts,T2,Operational sharing and dissemination
+r57,57,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r58,58,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r59,59,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r60,60,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r61,61,G2,Technical artifacts,T2,Operational sharing and dissemination
+r62,62,G2,Technical artifacts,T2,Operational sharing and dissemination
+r63,63,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r64,64,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r65,65,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r66,66,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r67,67,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r68,68,G2,Technical artifacts,T6,Operational consumption and integration
+r69,69,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r70,70,G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies
+r71,71,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r72,72,G4,Representation and semantics,S2,Semantic entity and relation models
+r73,73,G2,Technical artifacts,T3,Ingestion and normalization
+r74,74,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r75,75,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r76,76,G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies
+r77,77,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r78,78,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r79,79,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r80,80,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r81,81,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r82,82,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r83,83,G1,Conceptual artifacts,C4,"Assessment models for maturity, capabilities, and readiness"
+r84,84,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r85,85,G3,Interoperability,I3,Actionable detection and response formats
+r86,86,G2,Technical artifacts,T6,Operational consumption and integration
+r87,87,G2,Technical artifacts,T6,Operational consumption and integration
+r88,88,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r89,89,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r90,90,G2,Technical artifacts,T2,Operational sharing and dissemination
+r91,91,G4,Representation and semantics,S2,Semantic entity and relation models
+r92,92,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r93,93,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r94,94,G2,Technical artifacts,T6,Operational consumption and integration
+r95,95,G2,Technical artifacts,T2,Operational sharing and dissemination
+r96,96,G2,Technical artifacts,T6,Operational consumption and integration
+r97,97,G2,Technical artifacts,T3,Ingestion and normalization
+r98,98,G2,Technical artifacts,T6,Operational consumption and integration
+r99,99,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r100,100,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r101,101,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r102,102,G2,Technical artifacts,T6,Operational consumption and integration
+r103,103,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r104,104,G3,Interoperability,I1,Standardized CTI models and formats
+r105,105,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r106,106,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r107,107,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r108,108,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r109,109,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r110,110,G2,Technical artifacts,T7,Technical protection controls in sharing
+r111,111,G1,Conceptual artifacts,C4,"Assessment models for maturity, capabilities, and readiness"
+r112,112,G2,Technical artifacts,T6,Operational consumption and integration
+r113,113,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r114,114,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r115,115,G1,Conceptual artifacts,C5,Sectoral and compliance-oriented models and architectures
+r116,116,G2,Technical artifacts,T2,Operational sharing and dissemination
+r117,117,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r118,118,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r119,119,G4,Representation and semantics,S2,Semantic entity and relation models
+r120,120,G1,Conceptual artifacts,C1,Governance and ecosystem coordination
+r121,121,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r122,122,G3,Interoperability,I1,Standardized CTI models and formats
+r123,123,G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies
+r124,124,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r125,125,G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations
+r126,126,G4,Representation and semantics,S2,Semantic entity and relation models
+r127,127,G2,Technical artifacts,T2,Operational sharing and dissemination
+r128,128,G2,Technical artifacts,T6,Operational consumption and integration
+r129,129,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r130,130,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r131,131,G2,Technical artifacts,T6,Operational consumption and integration
+r132,132,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r133,133,G2,Technical artifacts,T2,Operational sharing and dissemination
+r134,134,G2,Technical artifacts,T4,"Curation, quality, and operational-data governance"
+r135,135,G2,Technical artifacts,T2,Operational sharing and dissemination
+r136,136,G2,Technical artifacts,T2,Operational sharing and dissemination
+r137,137,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r138,138,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r139,139,G2,Technical artifacts,T2,Operational sharing and dissemination
+r140,140,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r141,141,G2,Technical artifacts,T2,Operational sharing and dissemination
+r142,142,G1,Conceptual artifacts,C5,Sectoral and compliance-oriented models and architectures
+r143,143,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r144,144,G3,Interoperability,I4,Ecosystem-oriented interoperability
+r145,145,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r146,146,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r147,147,G2,Technical artifacts,T2,Operational sharing and dissemination
+r148,148,G2,Technical artifacts,T2,Operational sharing and dissemination
+r149,149,G3,Interoperability,I1,Standardized CTI models and formats
+r150,150,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r151,151,G4,Representation and semantics,S2,Semantic entity and relation models
+r152,152,G2,Technical artifacts,T6,Operational consumption and integration
+r153,153,G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification
+r154,154,G2,Technical artifacts,T2,Operational sharing and dissemination
+r155,155,G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy"
+r156,156,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r157,157,G3,Interoperability,I3,Actionable detection and response formats
+r158,158,G2,Technical artifacts,T2,Operational sharing and dissemination
+r159,159,G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration
+r160,160,G2,Technical artifacts,T2,Operational sharing and dissemination
+r161,161,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r162,162,G2,Technical artifacts,T2,Operational sharing and dissemination
+r163,163,G2,Technical artifacts,T6,Operational consumption and integration
+r164,164,G1,Conceptual artifacts,C1,Governance and ecosystem coordination
+r165,165,G2,Technical artifacts,T2,Operational sharing and dissemination
+r166,166,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r167,167,G2,Technical artifacts,T7,Technical protection controls in sharing
+r168,168,G2,Technical artifacts,T5,"Enrichment, correlation, and analysis"
+r169,169,G2,Technical artifacts,T1,TIPs and end-to-end integrated suites
+r170,170,G2,Technical artifacts,T6,Operational consumption and integration
+r171,171,G3,Interoperability,I1,Standardized CTI models and formats
+r172,172,G1,Conceptual artifacts,C5,Sectoral and compliance-oriented models and architectures

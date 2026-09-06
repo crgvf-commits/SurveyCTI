@@ -1,0 +1,7 @@
+Trade_Off,What_Is_Gained,Main_Cost_or_Risk,Especially_Relevant_Context
+CTI detail vs. privacy/confidentiality,Greater analytical utility and richer correlation,Exposure of sensitive data; need for sanitization and access control,Interorganizational sharing under compliance and data-sensitivity constraints
+Decentralization/federation (including blockchain) vs. performance and cost overhead,"Auditability, resilience, and reduced central trust","Latency, computational overhead, transaction/coordination cost, greater complexity",Multi-organization ecosystems with explicit governance and auditability requirements
+Curation/validation vs. timeliness,Greater CTI quality and trustworthiness,Publication and consumption delay; potential loss of opportunity,Continuous flows with high volume and heterogeneous sources
+Automation/enrichment/correlation vs. computational cost and false positives,Operational scale and reduced manual effort,Computing cost and increased false positives if the pipeline is too aggressive,SOC/CSIRT environments with high event or IoC volume
+Standards/formats/vocabularies vs. semantic expressiveness,Interoperability and easier integration,Need for mappings/extensions and loss of semantic nuance,Integration across multiple CTI tools and sources
+Centralization (hub/TIP) vs. federation/peer-to-peer,Simpler coordination and operation,Dependence on a central point versus distributed coordination complexity,Choice depends on ecosystem maturity and governance requirements
