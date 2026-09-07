@@ -18,24 +18,4 @@ G3,Interoperability mechanisms,I4,Ecosystem-oriented interoperability,2
 G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification,8
 G4,Representation and semantics,S2,Semantic entity and relation models,7
 G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations,11
-G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies,5Group,Group_Label,Cluster,Cluster_Label,Number_of_Studies
-G1,Conceptual artifacts,C1,Governance and ecosystem coordination,3
-G1,Conceptual artifacts,C2,"Trust, auditability, accountability, and privacy",11
-G1,Conceptual artifacts,C3,Operationalization of the CTI cycle and SOC/IR integration,10
-G1,Conceptual artifacts,C4,"Assessment models for maturity, capabilities, and readiness",2
-G1,Conceptual artifacts,C5,Sectoral and compliance-oriented models and architectures,3
-G2,Technical artifacts,T1,TIPs and end-to-end integrated suites,29
-G2,Technical artifacts,T2,Operational sharing and dissemination,22
-G2,Technical artifacts,T3,Ingestion and normalization,4
-G2,Technical artifacts,T4,"Curation, quality, and operational-data governance",11
-G2,Technical artifacts,T5,"Enrichment, correlation, and analysis",17
-G2,Technical artifacts,T6,Operational consumption and integration,15
-G2,Technical artifacts,T7,Technical protection controls in sharing,3
-G3,Interoperability,I1,Standardized CTI models and formats,6
-G3,Interoperability,I2,Protocols and transport mechanisms,1
-G3,Interoperability,I3,Actionable detection and response formats,2
-G3,Interoperability,I4,Ecosystem-oriented interoperability,2
-G4,Representation and semantics,S1,Taxonomies for terminological standardization and classification,8
-G4,Representation and semantics,S2,Semantic entity and relation models,7
-G4,Representation and semantics,S3,TTP-oriented and attack-chain-oriented representations,11
 G4,Representation and semantics,S4,Sectoral or contextualized taxonomies and ontologies,5
