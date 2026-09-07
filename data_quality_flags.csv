@@ -1,10 +1,9 @@
-Item,Type,Issue,Action
-r2,Bibliographic metadata,"Author field contains ""N. null"".",Verify against the primary publication before public release.
-r56,Bibliographic metadata,Year is encoded as 2020 although the manuscript states a 2021–2026 search window.,Verify publication year/indexing year against the primary publication or extraction record.
-r77,Bibliographic metadata,"Author field contains ""N. null"".",Verify against the primary publication before public release.
-r107,Bibliographic metadata,"Author field contains malformed text ""I. (. Kompatsiaris"".",Verify against the primary publication before public release.
-r108,Bibliographic metadata,"Author field contains malformed text ""S. (. Arisian"".",Verify against the primary publication before public release.
-r127,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.32604/csse, 032862"".",Do not normalize automatically; verify against the primary publication.
-r135,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.18280/ijsse. 140412"".",Do not normalize automatically; verify against the primary publication.
-r148,Bibliographic metadata,"Author field is already abbreviated as ""L. M. Nitz et al"" in the source bibliography.",Verify complete authorship against the primary publication if full author metadata is required.
-I2 adoption,Evidence coding,Direct-answer table reports Adoption=E4; limited/emerging-cluster table states I2 adoption=E0.,Resolve against the study-level extraction/Evidentia record before public release.
+index,Item,Type,Issue,Action
+0,r2,Bibliographic metadata,"Author field contains ""N. null"".",Verify against the primary publication before public release.
+1,r56,Bibliographic metadata,Year is encoded as 2020 although the manuscript states a 2021–2026 search window.,Verify publication year/indexing year against the primary publication or extraction record.
+2,r77,Bibliographic metadata,"Author field contains ""N. null"".",Verify against the primary publication before public release.
+3,r107,Bibliographic metadata,"Author field contains malformed text ""I. (. Kompatsiaris"".",Verify against the primary publication before public release.
+4,r108,Bibliographic metadata,"Author field contains malformed text ""S. (. Arisian"".",Verify against the primary publication before public release.
+5,r127,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.32604/csse, 032862"".",Do not normalize automatically; verify against the primary publication.
+6,r135,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.18280/ijsse. 140412"".",Do not normalize automatically; verify against the primary publication.
+7,r148,Bibliographic metadata,"Author field is already abbreviated as ""L. M. Nitz et al"" in the source bibliography.",Verify complete authorship against the primary publication if full author metadata is required.
