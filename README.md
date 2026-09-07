@@ -1,14 +1,18 @@
-# CTI-Sharing Systematic Review — Replication Data Package
+# CTI-Sharing Systematic Review — Replication and Traceability Data Package
 
-This directory contains machine-readable artifacts derived from the manuscript:
+This repository contains the machine-readable replication and traceability
+artifacts associated with the manuscript:
 
-**Cyber Threat Intelligence Sharing: An Evidence-Qualified Systematic Review of Solutions and Operational Maturity**
+**Cyber Threat Intelligence Sharing: Solutions and Evidence Maturity**
 
-The package is intended to support traceability of the WorldCIST 2027 submission and to allow readers to inspect the included corpus, cluster assignments, evidence rubric, consolidated evidence results, and reported trade-offs without requiring the conference paper to print the complete primary-study bibliography.
+The package accompanies the WorldCIST 2027 submission and supports inspection
+of the included corpus, primary group and cluster assignments, evidence rubric,
+study-level evidence coding, consolidated evidence results, and recurring
+trade-offs reported in the manuscript.
 
 ## Scope
 
-The manuscript reports:
+The systematic review reports:
 
 - 903 records identified;
 - 898 records after deduplication;
@@ -17,39 +21,54 @@ The manuscript reports:
 - 115 full texts excluded;
 - 172 primary studies included.
 
-The search window is reported as 2021–2026. The manuscript also states that no eligible 2026 primary study was retained and that the empirical synthesis is concentrated in 2021–2025.
+The search window covers publications from 2021 to 2026 in English or
+Portuguese.
 
-All bibliographic metadata in this package was taken from the manuscript bibliography/BibTeX source. No external bibliographic corrections were introduced when generating these files.
+The review follows the anti-inference principle described in the manuscript:
+when a primary study does not provide a verifiable textual basis for an
+analytical field or evidence axis, the value is recorded as NR rather than
+inferred.
 
 ## Files
 
 | File | Purpose |
 |---|---|
-| `included_studies.csv` | Master list of the 172 included primary studies, with bibliographic metadata and the traceability group/cluster listed in the manuscript. |
-| `included_studies.bib` | Complete BibTeX bibliography of the 172 included primary studies (`r1`--`r172`). |
-| `paper_references_full.csv` | Complete machine-readable list of all 178 references in the manuscript, marking the 172 primary studies and the six methodological/supporting references. |
-| `paper_references_full.bib` | Complete BibTeX bibliography of all 178 manuscript references (`r1`--`r178`). |
-| `cluster_assignments.csv` | Compact study-to-group/cluster mapping for analysis or filtering. |
-| `cluster_summary.csv` | The 20-cluster solution landscape and the number of studies assigned to each cluster. |
-| `evidence_rubric.csv` | E0–E5 and NR evidence definitions, typical evidence, and exclusion conditions. |
-| `global_evidence_summary.csv` | Corpus-level evidence summary for effectiveness, adoption, impact, and scalability. |
-| `cluster_evidence_summary.csv` | Consolidated cluster-level evidence maxima reported in the manuscript's direct-answer table. |
-| `evidence_dense_clusters.csv` | Maximum and median evidence levels for the ten clusters identified as having the highest evidence density. |
-| `tradeoffs.csv` | Recurring trade-offs and applicability conditions reported by the synthesis. |
-| `data_quality_flags.csv` | Source-data and manuscript inconsistencies that should be verified before public release. |
+| `included_studies.csv` | Master list of the 172 included primary studies, with bibliographic metadata and their primary analytical group and functional cluster. |
+| `included_studies.bib` | BibTeX bibliography of the 172 included primary studies, when provided. |
+| `cluster_assignments.csv` | Compact mapping between each included study, its primary analytical group, and its primary functional cluster. |
+| `cluster_summary.csv` | The 20-cluster CTI-sharing solution landscape and the number of studies assigned to each cluster. |
+| `evidence_rubric.csv` | Definitions of E0–E5 and NR, including typical evidence and exclusion conditions. |
+| `study_evidence_matrix.csv` | Study-level evidence assignments for effectiveness, adoption, impact, and scalability across the 172 included studies. |
+| `global_evidence_summary.csv` | Corpus-level evidence summary reported in the manuscript. |
+| `cluster_evidence_summary.csv` | Cluster-level evidence statistics derived from the study-level evidence matrix. |
+| `evidence_dense_clusters.csv` | Evidence statistics for the ten clusters identified in the manuscript as having the highest evidence density. |
+| `tradeoffs.csv` | Recurring operational trade-offs and applicability conditions identified in the synthesis. |
+| `review_bibliography_full.csv` | Machine-readable bibliography associated with the review dataset, comprising the 172 included primary studies and methodological/supporting references used in the extended review source. |
+| `review_bibliography_full.bib` | BibTeX version of the review bibliography, when provided. |
+| `data_quality_audit.csv` | Optional audit record documenting resolved source-data checks. No unresolved issue should remain in the public review package. |
 
-## Taxonomy
+## Analytical taxonomy
 
-The solution landscape contains four analytical groups and 20 clusters:
+The solution landscape contains four analytical groups and 20 functional
+clusters:
 
 - **G1 — Conceptual artifacts:** C1–C5
 - **G2 — Technical artifacts:** T1–T7
-- **G3 — Interoperability:** I1–I4
+- **G3 — Interoperability mechanisms:** I1–I4
 - **G4 — Representation and semantics:** S1–S4
 
-The manuscript describes G1–G4 as analytical facets. However, the published traceability tables in the current manuscript version list each of the 172 included studies in exactly one G1–G4 cluster. The CSV files reproduce the traceability tables as written and do not infer additional cross-group memberships.
+The review uses faceted coding to characterize heterogeneous CTI-sharing
+solutions. For the disjoint aggregation reported in the manuscript and
+reproduced in this package, each included study is assigned one **primary
+analytical group** and one **primary functional cluster**.
 
-## Evidence interpretation
+Cross-cutting technologies, standards, and ecosystem elements may be retained
+separately as tags and are not counted as additional primary cluster
+assignments.
+
+The primary cluster counts sum to the 172 included studies.
+
+## Evidence assessment
 
 Evidence is assessed independently across four axes:
 
@@ -58,32 +77,93 @@ Evidence is assessed independently across four axes:
 - impact;
 - scalability.
 
-The ordinal scale ranges from **E0** (no evaluation) to **E5** (robust longitudinal or scale evidence), with **NR** used when no verifiable textual basis is reported.
+The ordinal evidence scale ranges from **E0** (no evaluation) to **E5**
+(robust longitudinal or scale evidence). **NR** denotes cases for which no
+verifiable textual basis was reported in the primary study.
 
-`cluster_evidence_summary.csv` contains **cluster-level consolidated maxima**, not study-level evidence codes. A maximum can therefore be driven by a small subset of studies and should be interpreted together with medians and counts where available.
+Evidence levels refer to the strength of the evidence reported for each
+analytical axis and should not be interpreted as direct measurements of
+real-world prevalence.
 
-`evidence_dense_clusters.csv` contains the maxima and medians reported for the ten evidence-dense clusters: C2, C3, T1, T2, T4, T5, T6, I3, S1, and S2.
+## Study-level evidence matrix
 
-## Important limitation: study-level E0–E5 matrix
+`study_evidence_matrix.csv` is the authoritative study-level representation
+used to support corpus-level and cluster-level evidence summaries.
 
-The current manuscript source does not contain the complete 172 × 4 study-level evidence matrix. Therefore, this package does **not** reconstruct or infer study-level effectiveness, adoption, impact, or scalability values.
+Each included study has one value for each evidence axis:
 
-The full study-level matrix should only be added from the original structured extraction dataset (for example, the Evidentia Review export or the authoritative consolidated extraction file).
+- effectiveness;
+- adoption;
+- impact;
+- scalability.
 
-## Data-quality checks before public release
+Permitted values are:
 
-`data_quality_flags.csv` records issues detected in the current source without silently correcting them. These include malformed author metadata, one bibliography year outside the declared search window, two DOI strings embedded in note fields with unusual formatting, and an inconsistency in the manuscript regarding I2 adoption evidence.
+`E0`, `E1`, `E2`, `E3`, `E4`, `E5`, and `NR`.
 
-The package should be treated as a **draft replication package** until these flags are resolved against the authoritative extraction and bibliographic sources.
+No study-level value should be reconstructed from aggregate statistics.
+The matrix must originate from the authoritative structured extraction dataset
+used in the review.
 
-## Reproducibility principle
+## Derived evidence summaries
 
-The package follows the manuscript's anti-inference principle: values not explicitly supported by the source material are not reconstructed from assumptions.
+`global_evidence_summary.csv`, `cluster_evidence_summary.csv`, and
+`evidence_dense_clusters.csv` contain aggregated representations of the
+study-level evidence data.
 
-## Suggested citation in the paper
+Cluster maxima must not be interpreted in isolation. A maximum may be driven
+by a single study or a small subset of studies. The manuscript therefore
+interprets maxima together with medians, ranges, cluster sizes, and counts of
+studies reaching E >= 3 where available.
 
-A concise statement can be used in the submission:
+The ten higher-density evidence clusters discussed in the manuscript are:
 
-> The complete corpus of 172 included primary studies, together with the published cluster assignments, evidence rubric, consolidated evidence summaries, and reported trade-offs, is available in the anonymous replication package.
+`C2`, `C3`, `T1`, `T2`, `T4`, `T5`, `T6`, `I3`, `S1`, and `S2`.
 
-For double-blind review, the repository and all metadata exposed to reviewers should remain anonymous.
+## Reproducibility and traceability
+
+The package is designed to support the following traceability chain:
+
+primary study
+→ primary group/cluster assignment
+→ study-level evidence coding
+→ cluster-level aggregation
+→ corpus-level results reported in the manuscript.
+
+Derived values must remain reproducible from the authoritative study-level
+files and must not be manually reconstructed from the published aggregate
+results.
+
+## Data-quality policy
+
+Bibliographic or analytical discrepancies are resolved against the
+authoritative extraction and bibliographic sources before release.
+
+No unresolved data-quality flag should remain in the version exposed to
+reviewers.
+
+If `data_quality_audit.csv` is retained, it should document only resolved
+checks and the authoritative source used for each resolution.
+
+## Anonymity
+
+This repository is intended for double-blind review.
+
+The repository, file metadata, commit metadata, documentation, paths, comments,
+and machine-readable artifacts exposed to reviewers must not contain author
+names, affiliations, e-mail addresses, institutional identifiers, personal
+usernames, local paths, or links that reveal the identities of the manuscript
+authors.
+
+## Suggested statement in the manuscript
+
+> The complete corpus, study-to-cluster mapping, study-level evidence coding,
+> evidence summaries, and bibliographic data are available in the anonymized
+> replication package.
+
+## Manuscript
+
+**Cyber Threat Intelligence Sharing: Solutions and Evidence Maturity**
+
+Target venue: **WorldCIST 2027**  
+Submission category: **Full Paper**
