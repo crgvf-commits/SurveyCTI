@@ -1,5 +1,5 @@
-Axis,Median,E0_Count,E5_Count,Corpus_Size,Pattern_Observed,Observations_and_Limitations
-Effectiveness,2.0,,3,172,Controlled evaluations predominate; E5 is rare (3/172).,"Stronger evidence exists, but as an exception rather than the norm."
-Scalability,2.0,,10,172,E2–E3 predominate; E5 appears in 10/172 studies.,Longitudinal continuity is scarce in the corpus.
-Adoption,1.0,73,,172,Strong concentration in E0–E1; 73/172 studies remain at E0.,Descriptions and claims are more common than robust adoption validation.
-Impact,2.0,,0,172,Distribution centered on E2; no E5 cases were reported.,Benefits are often reported but not longitudinally or comparably measured.
+axis,median,pattern_observed,main_limitation
+Effectiveness,2.0,"Controlled evaluations predominate; E5 occurs in 3/172 studies.","Stronger evidence exists, but remains exceptional."
+Scalability,2.0,"E2-E3 predominate; E5 occurs in 10/172 studies.","Longitudinal continuity is scarce."
+Adoption,1.0,"Strong concentration in E0-E1; 73/172 studies remain at E0.","Sustained organizational use is weakly reported."
+Impact,2.0,"The distribution is centered on E2; no E5 cases were reported.","Benefits are rarely measured longitudinally or comparably."
