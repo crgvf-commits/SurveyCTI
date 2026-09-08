@@ -1,9 +1,9 @@
-index,Item,Type,Issue,Action
-0,r2,Bibliographic metadata,"Author field contains ""N. null"".",Verify against the primary publication before public release.
-1,r56,Bibliographic metadata,Year is encoded as 2020 although the manuscript states a 2021–2026 search window.,Verify publication year/indexing year against the primary publication or extraction record.
-2,r77,Bibliographic metadata,"Author field contains ""N. null"".",Verify against the primary publication before public release.
-3,r107,Bibliographic metadata,"Author field contains malformed text ""I. (. Kompatsiaris"".",Verify against the primary publication before public release.
-4,r108,Bibliographic metadata,"Author field contains malformed text ""S. (. Arisian"".",Verify against the primary publication before public release.
-5,r127,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.32604/csse, 032862"".",Do not normalize automatically; verify against the primary publication.
-6,r135,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.18280/ijsse. 140412"".",Do not normalize automatically; verify against the primary publication.
-7,r148,Bibliographic metadata,"Author field is already abbreviated as ""L. M. Nitz et al"" in the source bibliography.",Verify complete authorship against the primary publication if full author metadata is required.
+index,Item,Type,Issue,Status,Resolution,Authoritative_Source
+0,r2,Bibliographic metadata,"Author field contains ""N. null"".",Resolved,"Corrected to 'N. Rahimidanesh'.","Manuscript reference list, item [14] (Gurabi, Sen, Rahimidanesh, Ulbig, Decker, 2025)."
+1,r56,Bibliographic metadata,Year is encoded as 2020 although the manuscript states a 2021–2026 search window.,Resolved,"Corrected to 2021 (issue publication date).","Computers, Materials & Continua 67(1), 917-931, issue published 12 Jan 2021; DOI 10.32604/cmc.2021.014848."
+2,r77,Bibliographic metadata,"Author field contains ""N. null"".",Resolved,"Corrected to 'E. Charalambous'.","IEEE CSR 2025 conference proceedings author list (Peratikou, Charalambous, Smyrli, Stavrou, 2025)."
+3,r107,Bibliographic metadata,"Author field contains malformed text ""I. (. Kompatsiaris"".",Resolved,"Corrected to 'I. Kompatsiaris'.","Manuscript reference list, item [9] (Dimitriadis, Papoutsis, Kavalieros, Tsikrika, Vrochidis, Kompatsiaris, 2025)."
+4,r108,Bibliographic metadata,"Author field contains malformed text ""S. (. Arisian"".",Resolved,"Corrected to 'S. Arisian'.","Manuscript reference list, item [4] (Arisian, Halat, Hafezalkotob, Maskey, 2025)."
+5,r127,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.32604/csse, 032862"".",Open,"Not resolved. Malformed DOI could not be confirmed against a primary publisher source without risking an invented digit sequence.","Requires manual verification against Computer Systems Science and Engineering, vol. 45, 2023."
+6,r135,Bibliographic metadata,"DOI appears only inside the note field and is formatted as ""10.18280/ijsse. 140412"".",Open,"Not resolved. Malformed DOI could not be confirmed against a primary publisher source without risking an invented digit sequence.","Requires manual verification against International Journal of Safety and Security Engineering, vol. 14, 2024."
+7,r148,Bibliographic metadata,"Author field is already abbreviated as ""L. M. Nitz et al"" in the source bibliography.",Resolved,"Full author list restored: L. Nitz, M. Akbari Gurabi, M. Cermak, M. Zadnik, D. A. Karpuk, A. Drichel, S. Schafer, B. Holmes, A. Mandal.","Manuscript reference list, item [25]."
